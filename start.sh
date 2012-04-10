@@ -16,6 +16,8 @@ then
 	    echo
 	    echo "Creating structure"
 	    mkdir $DIR
+	    cd $DIR
+	    touch test.eraseme
 	 else
 		echo "Second thougts eh?"
 		exit
