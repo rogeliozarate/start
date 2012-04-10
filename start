@@ -15,7 +15,7 @@ then
     echo "Directory ${DIR} exist. Choose a different name"
     exit
   else
-    read -p "Are you sure you wat to create the app structure? [yY]" -n 1 -r
+    read -p "Are you sure you want to create the app structure? [yY]" -n 1 -r
 	if [[ $REPLY =~ ^[Yy]$ ]]
 	then
 	    echo
@@ -35,6 +35,6 @@ then
 	fi
   fi
 else  
-  echo "app name is null, leaving the script"
+  echo "App name is null, leaving the script"
   exit
 fi
