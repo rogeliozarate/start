@@ -6,7 +6,8 @@ then
   DIR=$BASE_DIR$1
   if [ -d "$DIR" ]; then
     # Control will enter here if $DIRECTORY exists
-    echo "Directory ${DIR} exist"
+    echo "Directory ${DIR} exist. Choose a different name"
+    exit
   else
     echo "Directory ${DIR} does not exist"	
   fi
