@@ -17,9 +17,15 @@ then
 	    echo "Creating structure"
 	    mkdir $DIR
 	    cd $DIR
-	    touch test.eraseme
+	    git init . 
+	    rvm use 1.9.2@$APP_NAME --create --rvmrc
+	    touch Gemfile
+	    touch .gitignore
+	    echo "Script finished at $(date)"
+	    echo "Future is yours"
 	 else
-		echo "Second thougts eh?"
+		echo
+		echo "Second thougts eh? at $(date)"
 		exit
 	fi
   fi
