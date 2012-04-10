@@ -39,5 +39,3 @@ else
   echo "app name is null, leaving the script"
   exit
 fi
-
-
