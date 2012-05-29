@@ -1,6 +1,6 @@
 #!/bin/bash
-# start.sh
-# starting script
+# start (without the .sh)
+# bootstraping script
 # Rogelio Zárate 
 # i.am@rogeliozarate.com
 # 2012-04-09T22:59:41
@@ -26,6 +26,8 @@ then
 	    rvm use 1.9.2@$APP_NAME --create --rvmrc
 	    touch Gemfile
 	    touch .gitignore
+	    touch readme.md
+	    rvm reload
 	    echo "Script finished at $(date)"
 	    echo "Future is yours"
 	 else
