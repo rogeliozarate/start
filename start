@@ -23,7 +23,7 @@ then
 	    mkdir $DIR
 	    cd $DIR
 	    git init . 
-	    rvm use 1.9.2@$APP_NAME --create --rvmrc
+	    rvm use default@$APP_NAME --create --rvmrc
 	    touch Gemfile
 	    touch .gitignore
 	    touch readme.md
