@@ -7,7 +7,7 @@ This script provides a simple way to start ruby projects.
 * moves to the new directory
 * initilizes git
 * initilizes rvm with a gemset named after the app.
-* sets ruby 1.9.2 as default
+* sets ruby version to system's default version
 * creates the files .gitignore, Gemset and readme.md
 * reloads rvm
 * encourages me to persevere
