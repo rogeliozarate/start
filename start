@@ -7,7 +7,7 @@
 
 if [ $1 ]
 then
-  BASE_DIR=~/Documents/code/
+  BASE_DIR=~/code/
   DIR=$BASE_DIR$1
   APP_NAME=$1
   if [ -d "$DIR" ]; then
