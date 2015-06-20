@@ -1,0 +1,14 @@
+* start
+  A simple bootstraping bash script
+  This script provides a simple way to start ruby projects.
+
+** creates directory structure. If this directory already exists exits.
+** moves to the new directory
+** initilizes git
+** initilizes rvm with a gemset named after the app.
+** sets ruby version to system's default version
+** creates the files .gitignore, Gemset and readme.org
+** reloads rvm
+** encourages me to persevere
+
+This bash script should be copied or linked in the proper path.

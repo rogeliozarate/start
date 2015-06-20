@@ -26,7 +26,7 @@ then
 	    rvm use default@$APP_NAME --create --rvmrc
 	    touch Gemfile
 	    touch .gitignore
-	    touch readme.md
+	    touch readme.org
 	    rvm reload
 	    echo "Script finished at $(date)"
 	    echo "Future is yours"
