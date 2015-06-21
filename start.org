@@ -11,4 +11,4 @@
 ** reloads rvm
 ** encourages me to persevere
 
-This bash script should be copied or linked in the proper path.
+Link this script to scripts/ using linkit :)
