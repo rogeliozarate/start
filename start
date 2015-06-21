@@ -27,7 +27,7 @@ then
 	    touch Gemfile
 	    touch .gitignore
 	    touch $APP_NAME.org
-	    touch README.org
+	    touch README.md
 	    rvm reload
 	    echo "Script finished at $(date)"
 	    echo "Future is yours"
