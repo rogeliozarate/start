@@ -1,8 +1,6 @@
 #!/bin/bash
 # start (without the .sh)
 # bootstraping script
-# Rogelio Zárate 
-# i.am@rogeliozarate.com
 # 2012-04-09T22:59:41
 
 if [ $1 ]
