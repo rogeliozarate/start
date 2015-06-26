@@ -21,7 +21,7 @@ then
 	    mkdir $DIR
 	    cd $DIR
 	    git init . 
-	    rvm use default@$APP_NAME --create --rvmrc
+	    rvm use default@$APP_NAME --create --ruby-version
 	    touch Gemfile
 	    touch .gitignore
 	    touch $APP_NAME.org
